@@ -16,7 +16,6 @@ img {
     width:100%;
     height:100%;
 }
-
 `;
 
 const LogoTitle = styled.h2`
@@ -38,7 +37,7 @@ export function BrandLogo(props) {
                 <img src={LogoImg} alt="logoimage" />
             </LogoImage>
             <LogoTitle>
-            Ur Health Is In Ur Hands
+                Your Fitness
             </LogoTitle>
         </BrandLogoContainer>
     );

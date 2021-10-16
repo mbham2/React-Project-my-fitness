@@ -8,7 +8,8 @@ import JoggingImg from '../images/jogging.jpg';
 const TopSectionContainer = styled.div`
 width:100%;
 min-height:100%;
-padding:4.5%;
+padding-top:0%;
+padding-bottom:8%;
 background-image:url(${TopSectionBackgroundImg}),url(${JoggingImg});
 background-position:left,bottom right;
 background-repeat:no-repeat;
@@ -23,7 +24,9 @@ animation: 50s shake infinite alternate;
   100% { transform: skewX(0deg); }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 300px) {
+    padding-top:0%;
+padding-bottom:8%;
     background-image:url(${TopSectionBackgroundImg}),url(${JoggingImg});
     background-position:left, bottom right;
     background-repeat:no-repeat;
